@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/home.css">
+    <link rel="stylesheet" href="src/styles/menu.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Ita Cakes</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+                <h2 id="nav_logo">Ita Cakes</h2>
+            </i>
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#loc">Localização</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#quemsomos">Quem Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#franqueado">Seja um Franqueado</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui.
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui.
+            </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    O doce que vai até
+                    <span>você</span>!
+                </h1>
+
+                <p class="description">
+                    Desfrute do sabor em sua porta! Nossos bolos são preparados com carinho e entregues diretamente para
+                    você. Experimente a doçura sem sair de casa com Ita Cakes.
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Ver catálogo
+                    </a>
+
+                    <a href="wa.me//5583996042210" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (83) 9 9604-2210
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="wa.me//5583996042210">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+    
+                    <a href="wa.me//5583996042210">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+    
+                    <a href="wa.me//5583996042210">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+            <div id="banner">
+                <img src="imgs/vai ser essaaa.png" alt="">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subtitle">Nossos bolos especiais</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="imgs/bolo1.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Fatia de Chocolate
+                    </h3>
+
+                    <span class="dish-description">
+                        Tradicional e deliciosa fatia de bolo de chocolate!
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$6,39</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="imgs/bolo2.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Fatia de Red Velvet
+                    </h3>
+
+                    <span class="dish-description">
+                        Tradicional e deliciosa fatia de bolo de Red Velvet!
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(342+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$7,50</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="imgs/bolo3.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Bolo Tradicional
+                    </h3>
+
+                    <span class="dish-description">
+                        Delicioso bolo tradicional com cobertura de chocolate!
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(192+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$17,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="imgs/bolo4.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Combo CupCake
+                    </h3>
+
+                    <span class="dish-description">
+                        Combo com 3 CupCake para dividir com a família!
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subtitle">Nossas tortas salgadas</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="imgs/torta4.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Fatia de Frango
+                    </h3>
+
+                    <span class="dish-description">
+                        Tradicional e deliciosa fatia de torta de frango desfiado.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$5,50</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="imgs/torta3.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Fatia de Frango com Catupiry
+                    </h3>
+
+                    <span class="dish-description">
+                        Tradicional e deliciosa fatia de torta de frango com catupiry.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(342+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$6,50</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="imgs/torta2.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Torta Completa
+                    </h3>
+
+                    <span class="dish-description">
+                        Deliciosa torta completa. Serve até 8 pessoas. (Sabor a pedido do cliente)
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(192+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$35,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="imgs/torta1.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Fatia Pizza
+                    </h3>
+
+                    <span class="dish-description">
+                        Deliciosa fatia de torta em formato de pizza.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$5,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subtitle">Nossos bolos de pote</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="imgs/pote1.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Dois Amores
+                    </h3>
+
+                    <span class="dish-description">
+                        Delicioso bolo de pote sabor dois amores, acompanha morango.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$10,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="imgs/pote2.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Ninho com Bis
+                    </h3>
+
+                    <span class="dish-description">
+                        Delicioso bolo de pote sabor ninho com bis.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(342+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$10,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="imgs/pote3.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Combo Para 3
+                    </h3>
+
+                    <span class="dish-description">
+                        Combo para saborear as 3 opções de bolos de pote mais pedido em nossa doceria!
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(192+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$27,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="imgs/pote4.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Sabor Ninho
+                    </h3>
+
+                    <span class="dish-description">
+                        Tradicional bolo de pote sabor ninho. Uma ótima opção custo benefício para quem quer economizar.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$8,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="src/javascript/script.js"></script>
+</body>
+
+</html>
